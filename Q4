@@ -1,0 +1,34 @@
+<html>
+
+<body>
+	<form>
+	 <table>
+		<tr><td>Name: &nbsp <input type="text" name="name"><br></td></tr>
+		<tr><td> What kind of cars would you like to buy?</td></tr>
+		<tr><td> &nbsp &nbsp  <input type="radio" name="cartp" value="proton" checked> Proton
+		         <input type="radio" name="cartp" value="honda"> Honda
+             <input type="radio" name="cartp" value="ferrari"> Ferrari
+             <input type="radio" name="cartp" value="ford"> Ford
+    <br></td></tr>
+		<tr><td> What color do u want? </td></tr>
+		<tr><td>&nbsp &nbsp <select name="color">
+      <option value="white">White</option>
+      <option value="red">Red</option>
+      <option value="black">Black</option>
+      <option value="blue">Blue</option>
+     </select><br><br></td></tr>
+		<tr><td>What do u like about the car? </td></tr>
+		<tr><td>&nbsp &nbsp <textarea name ="comment" cols=40 rows=10> Please write here </textarea><br><br></td></tr>
+		<tr><td>Tell us how to get in touch with you : <br><br></td></tr>
+		<tr><td>&nbsp &nbsp Name: &nbsp <input type="text" name="name"></td></tr>
+		<tr><td>&nbsp &nbsp Email: &nbsp <input type="email" name="email"></td></tr>
+		<tr><td>&nbsp &nbsp TEL  : &nbsp &nbsp <input type="tel" name="telno"></td></tr>
+		<tr><td>&nbsp &nbsp FAX  : &nbsp <input type="text" name="fax"><br><br></td></tr>
+		<tr><td><input type="checkbox" name="check" value="chkbx">Please contact me asap regarding this matter <br><br></td></tr>
+		<tr><td><input type="submit" value="Send">
+            <input type="reset" value="Clear"></td></tr>
+	 </table>
+	</form>
+</body>
+
+</html>
