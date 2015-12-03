@@ -23,7 +23,7 @@
 		<tr><td>Tell us how to get in touch with you : <br><br></td></tr>
 		<tr><td>&nbsp &nbsp Name: &nbsp <input type="text" name="name"></td></tr>
 		<tr><td>&nbsp &nbsp Email: &nbsp <input type="email" name="email"></td></tr>
-		<tr><td>&nbsp &nbsp TEL  : &nbsp &nbsp <input type="tel" name="telno"></td></tr>
+		<tr><td>&nbsp &nbsp TEL: &nbsp &nbsp <input type="tel" name="telno"></td></tr>
 		<tr><td>&nbsp &nbsp FAX  : &nbsp <input type="text" name="fax"><br><br></td></tr>
 		<tr><td><input type="checkbox" name="check" value="chkbx">Please contact me asap regarding this matter <br><br></td></tr>
 		<tr><td><input type="submit" value="Send">
